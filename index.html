@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tailwind-assig</title>
+    <link rel="stylesheet" href="/tailwindcss-assig/dist/output.css" />
+    <script
+      src="https://kit.fontawesome.com/21b9cc962b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="min-h-screen bg-[#EEF1FA]">
+      <!-- Navbar -->
+      <nav
+        class="fixed w-full bg-white px-20 py-4 flex items-center justify-between shadow-sm z-50"
+      >
+        <div class="text-2xl font-serif font-bold">YOUR LOGO</div>
+
+        <!-- Nav links -->
+        <div class="flex items-center gap-10 text- font-semibold">
+          <a href="#" class="flex items-center gap-2">
+            Assets
+            <i class="fa-solid fa-caret-down"></i>
+          </a>
+          <a href="#">Creators</a>
+          <a href="#">Careers</a>
+          <a href="#">Go Pro</a>
+        </div>
+
+        <div class="flex items-center gap-8">
+          <div
+            class="flex items-center gap-3 bg-gray-100 px-5 py-3 rounded-full w-[260px]"
+          >
+            <i class="fa-solid fa-magnifying-glass text-gray-500"></i>
+
+            <input
+              type="text"
+              placeholder="Search"
+              class="bg-transparent outline-none w-full"
+            />
+          </div>
+
+          <div></div>
+
+          <button class="font-semibold text-">Log in</button>
+
+          <button
+            class="bg-black text-white px-8 py-3 rounded-full font-semibold text-"
+          >
+            Sign up
+          </button>
+        </div>
+      </nav>
+
+      <!-- Hero Content -->
+      <div class="max-w-7xl mx-auto px-20 pt-50 pb-40 relative">
+        <!-- Background Shapes -->
+
+        <div
+          class="absolute left-[42%] top-0 h-full w-[8%] bg-white/70 skew-x-[-16deg] z-10"
+        ></div>
+        <div
+          class="absolute -left-[8%] top-0 h-full w-[8%] bg-white/70 skew-x-[-16deg] z-10"
+        ></div>
+
+        <div class="flex gap-10 justify-around">
+          <!-- Left Content -->
+          <div class="relative">
+            <!-- Decorative Dots -->
+            <div
+              class="absolute w-6 h-6 bg-black rounded-full -left-10 -top-22 z-20"
+            ></div>
+            <div
+              class="absolute w-6 h-6 bg-black rounded-full -right-12 -bottom-20 z-20"
+            ></div>
+            <h1 class="font-serif text-5xl leading-14 font-bold text-[#081E63]">
+              Download <br />
+              design assets <br />
+              for free!
+            </h1>
+
+            <p class="text-xl font-semibold text-gray-900 mt-8 leading-relaxed">
+              Your one stop platform for anything,
+              <br />
+              and everything design
+            </p>
+
+            <div class="flex items-center gap-6 mt-16">
+              <button
+                class="bg-black text-white px-6 py-4 rounded-full text- font-semibold"
+              >
+                Get Started
+              </button>
+
+              <button
+                class="border-2 border-gray-400 px-6 py-4 rounded-full text- font-semibold"
+              >
+                Watch Video
+              </button>
+            </div>
+          </div>
+
+          <!-- Right Content -->
+          <div class="relative flex justify-center max-w-120">
+            <!-- Colored Shapes -->
+
+            <!-- Background Image -->
+            <img
+              src="assets/hero-blob.png"
+              alt="Woman"
+              class="absolute z-10 w-[650px]"
+            />
+
+            <!-- Main Image -->
+            <img
+              src="assets/Hero-img.png"
+              alt="Woman"
+              class="relative z-20 w-[650px]"
+            />
+
+            <!-- Testimonial Card -->
+            <div
+              class="absolute -bottom-18 right-10 bg-white rounded-xl shadow-xl px-6 py-2 flex items-center gap-4 z-20"
+            >
+              <img
+                src="assets/hero-blob.png"
+                alt="Avatar"
+                class="w-14 h-14 rounded-full"
+              />
+
+              <div>
+                <h4 class="font-bold text-[#081E63] text-">Seyi Ajibona</h4>
+
+                <p class="text-sm font-semibold">
+                  The resources on this platform are lit 🔥
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Arrow Button -->
+        <button
+          class="absolute -bottom-5 right-20 my-10 w-15 h-15 bg-black rounded-full flex items-center justify-center"
+        >
+          <i class="fa-solid fa-arrow-right text-white"></i>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>
